@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE sample_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		 CALL CopyMessageHeaders();
-		 CALL CopyEntireMessage();
+		-- CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
 
